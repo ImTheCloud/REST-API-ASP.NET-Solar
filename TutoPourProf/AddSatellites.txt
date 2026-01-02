@@ -1,0 +1,21 @@
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Deimos', 'https://example.com/deimos.jpg', 'Natural', 1.8e15, 'Moon of Mars', 3);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Europa', 'https://example.com/europa.jpg', 'Natural', 4.8e22, 'Moon of Jupiter', 4);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Titan', 'https://example.com/titan.jpg', 'Natural', 1.35e23, 'Moon of Saturn', 5);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Phoebe', 'https://example.com/phoebe.jpg', 'Natural', 8.292e18, 'Moon of Saturn', 5);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Enceladus', 'https://example.com/enceladus.jpg', 'Natural', 1.08e20, 'Moon of Saturn', 5);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Triton', 'https://example.com/triton.jpg', 'Natural', 2.14e22, 'Moon of Neptune', 4);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Moon', 'https://example.com/moon.jpg', 'Natural', 7.35e22, 'Earths Moon', 1);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('Asterix', 'https://example.com/asterix.jpg', 'Artificial', 500, 'First French Satellite', 1);
+INSERT INTO Satellites (Name, ImageUrl, Orbit, Mass, Description, CelestialObjectId) 
+VALUES ('ISS', 'https://example.com/iss.jpg', 'Artificial', 420000, 'International Space Station', 1);
+
+
+SELECT * FROM Satellites;

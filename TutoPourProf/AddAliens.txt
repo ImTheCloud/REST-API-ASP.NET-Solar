@@ -1,0 +1,29 @@
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Zarlon', 'https://static.vecteezy.com/system/resources/thumbnails/024/298/524/small/a-grey-alien-with-a-large-head-and-a-large-nose-free-png.png', 'Telekinesis', 'Masters the power of telekinesis', 4);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Xyron', 'https://i.pinimg.com/originals/da/90/e4/da90e44c6cd0160b6f701d83203f526e.png', 'Shape-shifting', 'Can change form at will', 2);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Vorlon', 'https://pngfre.com/wp-content/uploads/Alien-3-1024x1024.png', 'Teleportation', 'Moves instantly through space', 3);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Nebula', 'https://pngfre.com/wp-content/uploads/Alien-3-1024x1024.png', 'Energy Manipulation', 'Controls various forms of energy', 2);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Luminar', 'https://static.vecteezy.com/system/resources/thumbnails/024/298/524/small/a-grey-alien-with-a-large-head-and-a-large-nose-free-png.png', 'Solar Energy Absorption', 'Draws power from the sun', 1);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Trono', 'https://i.pinimg.com/originals/da/90/e4/da90e44c6cd0160b6f701d83203f526e.png', 'Teleportation', 'Master of teleportation', 3);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Calon', 'https://pngfre.com/wp-content/uploads/Alien-3-1024x1024.png', 'Mind Control', 'Can control minds', 4);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Ibuzi', 'https://static.vecteezy.com/system/resources/thumbnails/024/298/524/small/a-grey-alien-with-a-large-head-and-a-large-nose-free-png.png', 'Weather Manipulation', 'Can manipulate the weather', 5);
+
+INSERT INTO Aliens (Name, UrlImage, Power, Description, CelestialObjectId)
+VALUES ('Thales', 'https://i.pinimg.com/originals/da/90/e4/da90e44c6cd0160b6f701d83203f526e.png', 'Invisibility', 'Can become invisible at will', 8);
+
+
+select * from Aliens

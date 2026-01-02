@@ -1,0 +1,38 @@
+-- Insertion pour Earth
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Earth', 8, 62, 0.022, 0.002, 'https://raw.githubusercontent.com/gist/juanmirod/081a0b45372f6da81469/raw/526488c67e82f8916f21c07c0b7707b6d5a3615c/earth_texture_map_1000px.jpg', '2024-01-03 16:40:21.348', 'Our home planet', 'Celebrate the beauty of Earth');
+
+-- Insertion pour Mercury
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Mercury', 5, 28, 0.03, 0.002, 'https://global.discourse-cdn.com/standard17/uploads/threejs/original/3X/7/5/75acb3ebf6cc25845fa52981eadfb4a1f91d61b7.jpeg', '2024-01-03 16:40:21.348', 'Experience the swift orbit of Mercury', 'Experience the swift orbit of Mercury');
+
+-- Insertion pour Neptune
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Neptune', 8, 200, 0.002, 0.002, 'https://images.unsplash.com/photo-1607499699372-7bb722dff7e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ymx1ZSUyMHNwYWNlfGVufDB8fDB8fHww', '2024-01-03 16:40:21.348', 'The farthest known planet from the Sun', 'Marvel at the deep blue color of Neptune');
+
+-- Insertion pour Mars
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Mars', 5, 80, 0.015, 0.04, 'https://t4.ftcdn.net/jpg/03/38/48/79/360_F_338487951_noDUtHlzxljulqg525A9YZAup9IEpeNS.jpg', '2024-01-04 12:30:00.000', 'The fourth planet from the Sun, known for its red surface', 'Discover the Martian landscapes');
+
+-- Insertion pour Venus
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Venus', 6, 44, 0.025, 0.002, 'https://global.discourse-cdn.com/standard17/uploads/threejs/original/3X/5/1/510b0bdc3aa89ae91ab91718cec0c01f41798082.jpeg', '2024-01-03 16:40:21.348', 'The second planet from the Sun', 'Admire the bright atmosphere of Venus');
+
+-- Insertion pour Jupiter
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Jupiter', 14, 100, 0.006, 0.002, 'https://global.discourse-cdn.com/standard17/uploads/threejs/optimized/3X/2/8/28e78a1aa1594ffd8e0f746729c09418bec5d9cf_2_690x345.jpeg', '2024-01-03 16:40:21.348', 'The largest planet in our solar system', 'Witness the majestic storms on Jupiter');
+
+-- Insertion pour Saturn
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Saturn', 12, 138, 0.004, 0.002, 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Solarsystemscope_texture_2k_saturn.jpg', '2024-01-03 16:40:21.348', 'Known for its stunning ring system', 'Marvel at the beauty of Saturn\s rings');
+
+-- Insertion pour Uranus
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Uranus', 10, 176, 0.003, 0.002, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6Ci89UhU9sxNf8NlYKtYz50596kgnw67lJ7j8hjZ5fE6bqhCq8kr06m1IBserIL0JnI&usqp=CAU', '2024-01-03 16:40:21.348', 'Tilted on its side, the seventh planet from the Sun', 'Explore the unique axial tilt of Uranus');
+
+-- Insertion pour Pluto
+INSERT INTO CelestialObjects (Name, Size, Position, Mesh, Obj, UrlImage, PositionDateTime, Description, BestMomentsAndSpots)
+VALUES ('Pluto', 4, 216, 0.001, 0.002, 'https://global.discourse-cdn.com/standard17/uploads/threejs/optimized/3X/1/3/13a9c5dca1a88a263b8f4fbf3ab329be9dceee0c_2_690x345.jpeg', '2024-01-03 16:40:21.348', 'Dwarf planet in the outer solar system', 'Discover the mysteries of Pluto');
+
+SELECT * FROM CelestialObjects;
+
