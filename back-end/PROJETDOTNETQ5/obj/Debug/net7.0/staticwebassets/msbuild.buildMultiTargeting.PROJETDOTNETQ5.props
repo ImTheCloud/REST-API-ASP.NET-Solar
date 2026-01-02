@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PROJETDOTNETQ5.props" />
+</Project>
